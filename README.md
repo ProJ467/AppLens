@@ -18,7 +18,7 @@ AppLens is a Windows window inspector built in Python. It scans visible windows 
 - Python 3.x
 - psutil library
 
-Run
+ With Win+R run
 ```python AppLens.py```
 # Notes
 - AppLens uses Windows APIs to enumerate visible windows.
