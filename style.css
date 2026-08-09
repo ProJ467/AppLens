@@ -67,6 +67,45 @@ body {
     font-size: 15px;
 }
 
+.note {
+    margin-top: 18px;
+    color: #c6d1ff;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.instructions {
+    margin-top: 22px;
+    color: #e3e9ff;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.hero-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+    margin-top: 28px;
+}
+
+.hero-image {
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 24px;
+}
+
 /* ================================
    Cards
    ================================ */
